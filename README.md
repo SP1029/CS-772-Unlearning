@@ -28,7 +28,7 @@ Secondly we replace the generator with [Deep Inversion](https://arxiv.org/pdf/19
   - `GKT + No Attention.ipynb`: Removing Attention from student loss.
   - `GKT + Deep Inversion.ipynb`: Using Deep Inversion as the generator in GKT.
 
-### Project Video Presentation
+## Project Video Presentation
 <p align="center">
   <br>
   <a href="https://www.youtube.com/watch?v=iPIpb0F5-kU">

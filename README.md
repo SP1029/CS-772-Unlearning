@@ -1,7 +1,7 @@
 # CS772 Project: Zero-Shot Machine Unlearning
 
 ## Overview
-The project involved understanding and building upon the paper [Zero-shot Machine Unlearning](https://arxiv.org/abs/2201.05629). The paper introduces two methods for tackling Machine Unlearning in a classification setting where there is no access to training data. The **Error Minimisation Maximisation Noise** method optimises noise matrices using the model to resemble data to be forgotten and retained. The **Gated Knowledge Tranfer** approach utilises the model to genereate representative samples and utilises these, filtering out the classes to be forgotten, to train a new model.
+The project involved understanding and building upon the paper [Zero-shot Machine Unlearning](https://arxiv.org/abs/2201.05629). The paper introduces two methods for tackling Machine Unlearning in a classification setting where there is no access to data. The **Error Minimisation Maximisation Noise** method optimises noise matrices using the model to resemble data to be forgotten and retained. The **Gated Knowledge Tranfer** approach utilises the model to genereate representative samples and utilises these, filtering out the classes to be forgotten, to train a new model.
 
 We propose two improvements over the existing GKT method. Firstly we employ an additional entropy-based filter for avoiding low quality samples. This helps us to achieve comparative performance with significantly reduced re-training time. 
 

@@ -22,6 +22,12 @@ Secondly we replace the generator with [Deep Inversion](https://arxiv.org/pdf/19
   GKT with Deep Inversion samples
 </p>
 
+## Code
+  - `Deep Inversion.ipynb`: Generating images of MNIST numbers from the trained model using Deep Inversion.
+  - `GKT + Entropy Criterion.ipynb`: Implementing the entropy criteria for filtering generated data points.
+  - `GKT + No Attention.ipynb`: Removing Attention from student loss.
+  - `GKT + Deep Inversion.ipynb`: Using Deep Inversion as the generator in GKT.
+
 ### Project Video Presentation
 <p align="center">
   <br>
@@ -29,12 +35,6 @@ Secondly we replace the generator with [Deep Inversion](https://arxiv.org/pdf/19
   <img src="https://img.youtube.com/vi/iPIpb0F5-kU/0.jpg" width='350' text-align='center'>
   </a>
 </p>
-
-## Code
-  - `Deep Inversion.ipynb`: Generating images of MNIST numbers from the trained model using Deep Inversion.
-  - `GKT + Entropy Criterion.ipynb`: Implementing the entropy criteria for filtering generated data points.
-  - `GKT + No Attention.ipynb`: Removing Attention from student loss.
-  - `GKT + Deep Inversion.ipynb`: Using Deep Inversion as the generator in GKT.
 
 ## Project Team
 - Ashutosh [@ashutoshkr4458](https://github.com/ashutoshkr4458)
